@@ -11,6 +11,8 @@ body {
   flex-direction: column;
 }
 
+/* Hero section start heres */
+
 .hero {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -99,4 +101,36 @@ h1 {
 .info-img {
   width: 200px;
   border-radius: 16px;
+}
+
+/* Quote section starts here */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px 160px;
+  gap: 24px;
+  align-items: center;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote cite {
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+/* Footer starts here */
+
+footer {
+  height: 64px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
